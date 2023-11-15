@@ -1,0 +1,103 @@
+.body{
+ background-color: #ffeef2;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #470422;
+}
+
+.texto-header{
+    font-family: 'Roboto Slab', serif;
+    color: #ffe9f1;
+    
+}
+
+.img-logo{
+    width: 50px;
+}
+
+.texto-principal{
+    color: #470422;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.texto-estatus{
+    margin-left: 30px;
+}
+
+.img-estatus{
+    width: 50%;
+    margin-left: 80px;
+}
+
+contenedor-estatus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-barras{
+    width: 24%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.img-hoja{
+    width: 25%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.img-calendario{
+    width: 40%;
+    margin-left: 100px;
+}
+
+.texto-calendar{
+    color: #470422;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+
+.button-33{
+  background-color: #ffa5c4;
+  border-radius: 100px;
+  box-shadow: rgba(140, 3, 105, 0.2) -25px 18px -14px inset,rgba(140, 3, 105, .15) 0 1px 2px,rgba(140, 3, 105, .15) 0 2px 4px,rgba(140, 3, 105, .15) 0 4px 8px,rgba(140, 3, 105, .15) 0 8px 16px,rgba(140, 3, 105, .15) 0 16px 32px;
+  color: #33001b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 230ms;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 230px;
+  text-decoration: none;
+}
+
+.button-33:hover{
+  box-shadow: rgba(140, 3, 105,.35) 0 -25px 18px -14px inset,rgba(140, 3, 105,.25) 0 1px 2px,rgba(140, 3, 105,.25) 0 2px 4px,rgba(140, 3, 105,.25) 0 4px 8px,rgba(140, 3, 105,.25) 0 8px 16px,rgba(140, 3, 105,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.contenedor-principal{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
