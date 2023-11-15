@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textos-header{
+       font-family: 'Roboto Slab', serif; 
+}
+
+.body{
+    background-color: white;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #46042f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background: #ff0084; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(329, 95%, 30%, 0.53), #33001b), url(Home.header.jpg
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(329, 95%, 40%, 0.53), #33001b), url(Home.header.jpg
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 60px;
+    color: #ffeff2;
+}
+
+.textos-header h5{
+    font-size: 15px;
+    color: #ffeff2;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    color: #ffad08;
+    margin-bottom: 40px;
+}
+
+/* My info */
+.border-icon{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 30%;
+    font-size: 2.7rem;
+    transition: all .3s ease-in;
+}
+
+.contenedor-Home-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-porfile{
+    width: 38%;
+}
+
+.contenido-textos{
+    margin-top: 10px;
+    width: 48%;
+}
+
+.contenido-textos h4{
+    margin-bottom: 15px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contenido-textos h4 span{
+    background: #ab5a78;
+    color: #ffe0e5;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    padding: 5px;
+    margin-right: 15px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+/* My statistics */
+
+.Home-estadisticas{
+    background: #ffeaf1;
+}
+
+.contenedor-estadisticas{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.img-estadisticas{
+    width: 50%;
+}
+
+.texto-estadisticas p{
+    padding: 0px 0px 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+/*My diary*/
+
+.contenedor-Home-diario{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-midiario{
+    width: 50%;
+}
+
+.texto-diario p{
+    padding: 0px 0px 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+/*Chat*/
+
+.Home-chat{
+    background: #ffeaf1;
+}
+
+.contenedor-chat{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-chat{
+    align-content: center;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+
+/* Botones */
+.button-33-estatus{
+  background-color: #ffa5c4;
+  border-radius: 100px;
+  box-shadow: rgba(140, 3, 105, 0.2) -25px 18px -14px inset,rgba(140, 3, 105, .15) 0 1px 2px,rgba(140, 3, 105, .15) 0 2px 4px,rgba(140, 3, 105, .15) 0 4px 8px,rgba(140, 3, 105, .15) 0 8px 16px,rgba(140, 3, 105, .15) 0 16px 32px;
+  color: #33001b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 17px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 590px;
+  text-decoration: none;
+}
+
+.button-33-estatus:hover{
+  box-shadow: rgba(140, 3, 105,.35) 0 -25px 18px -14px inset,rgba(140, 3, 105,.25) 0 1px 2px,rgba(140, 3, 105,.25) 0 2px 4px,rgba(140, 3, 105,.25) 0 4px 8px,rgba(140, 3, 105,.25) 0 8px 16px,rgba(140, 3, 105,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-33-diario{
+  background-color: #ffa5c4;
+  border-radius: 100px;
+  box-shadow: rgba(140, 3, 105, 0.2) -25px 18px -14px inset,rgba(140, 3, 105, .15) 0 1px 2px,rgba(140, 3, 105, .15) 0 2px 4px,rgba(140, 3, 105, .15) 0 4px 8px,rgba(140, 3, 105, .15) 0 8px 16px,rgba(140, 3, 105, .15) 0 16px 32px;
+  color: #33001b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 17px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 610px;
+  text-decoration: none;
+}
+
+.button-33-diario:hover{
+  box-shadow: rgba(140, 3, 105,.35) 0 -25px 18px -14px inset,rgba(140, 3, 105,.25) 0 1px 2px,rgba(140, 3, 105,.25) 0 2px 4px,rgba(140, 3, 105,.25) 0 4px 8px,rgba(140, 3, 105,.25) 0 8px 16px,rgba(140, 3, 105,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.button-33chat {
+  background-color: #ffa5c4;
+  border-radius: 100px;
+  box-shadow: rgba(140, 3, 105, 0.2) -25px 18px -14px inset,rgba(140, 3, 105, .15) 0 1px 2px,rgba(140, 3, 105, .15) 0 2px 4px,rgba(140, 3, 105, .15) 0 4px 8px,rgba(140, 3, 105, .15) 0 8px 16px,rgba(140, 3, 105, .15) 0 16px 32px;
+  color: #33001b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 640px;
+  text-decoration: none;
+}
+
+.button-33chat:hover {
+  box-shadow: rgba(140, 3, 105,.35) 0 -25px 18px -14px inset,rgba(140, 3, 105,.25) 0 1px 2px,rgba(140, 3, 105,.25) 0 2px 4px,rgba(140, 3, 105,.25) 0 4px 8px,rgba(140, 3, 105,.25) 0 8px 16px,rgba(140, 3, 105,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-33blog {
+  background-color: #ffa5c4;
+  border-radius: 100px;
+  box-shadow: rgba(140, 3, 105, 0.2) -25px 18px -14px inset,rgba(140, 3, 105, .15) 0 1px 2px,rgba(140, 3, 105, .15) 0 2px 4px,rgba(140, 3, 105, .15) 0 4px 8px,rgba(140, 3, 105, .15) 0 8px 16px,rgba(140, 3, 105, .15) 0 16px 32px;
+  color: #33001b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 276ms;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 640px;
+  text-decoration: none;
+}
+
+.button-33blog:hover {
+  box-shadow: rgba(140, 3, 105,.35) 0 -25px 18px -14px inset,rgba(140, 3, 105,.25) 0 1px 2px,rgba(140, 3, 105,.25) 0 2px 4px,rgba(140, 3, 105,.25) 0 4px 8px,rgba(140, 3, 105,.25) 0 8px 16px,rgba(140, 3, 105,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+/* footer */
+
+.contenedor-footer{
+    background: #620e3a;
+    padding: 70px 0 40px 0;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.titulo-final{
+    color: #ffeff2;
+    border-bottom: 3px solid #d41d79;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin: 20px 0 0 0;
+    
+}
+
+.contenedor-principal{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:902px){
+    header{
+        background-position: center;
+    }
+    /*My info*/
+    .contenedor-Home-info{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .contenido-textos{
+        width: 80%;
+        margin-left: 40px;
+    }
+    
+    .img-porfile{
+        width: 50%;
+        margin-left: 88px;
+    }
+    /*Estadisticas*/
+    .contenedor-estadisticas{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .img-estadisticas{
+        width: 70%;
+        margin-left: 70px;
+    }
+    
+    .texto-estadisticas{
+        width: 100%;
+    }
+    
+    .button-33-estatus{
+        margin-left: 65px;
+    }
+    /*Diario*/
+    .contenedor-Home-diario{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .img-midiario{
+        width: 70%;
+        margin-left: 65px;
+    }
+    .texto-diario{
+        width: 100%;
+    }
+    .button-33-diario{
+        margin-left: 80px;
+    }
+    /*Chat*/
+    .contenedor-Chat{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .img-chat{
+       width: 70%;
+       margin-left: 60px; 
+    }
+    
+    .button-33chat{
+        margin-left: 120px;
+    }
+    
+    .button-33blog{
+        margin-left: 112px;
+    }
+    
+    .icons{
+        width: 90px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        color: #ffad08;
+        margin-bottom: 30px;
+    }
+    
+    .border-icon{
+        height: 50px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 30%;
+        font-size: 2.7rem;
+        transition: all .3s ease-in;
+}
+    
+}

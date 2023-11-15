@@ -1,0 +1,127 @@
+.body{
+    background-color: #41001e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: #ffeff2;
+    font-size: 25px;
+    font-family: helvetica;
+    margin-bottom: 15px;
+}
+
+.form-text{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.form-text a{
+    color: #ffeff2;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    color: #ffeff2;
+}
+
+.border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 30%;
+    font-size: 1.7rem;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover{
+    background-color: #87345a;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.input-group i{
+    color: white;
+
+}
+
+.holder{
+    background-color: #6e173f;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+:focus{
+    outline: 2px solid #87345a;
+}
+
+.form{
+    padding: 30px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: #58022a;
+    
+}
+
+.button-34 {
+  background: #a05572;
+  border-radius: 40px;
+  box-shadow: #712b48 0 10px 30px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 90px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 10px 40px;
+  touch-action: manipulation;
+  border: 0;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.register{
+    color: white
+}
+
+.register-link{
+    color: #daff78
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
